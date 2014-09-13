@@ -10,5 +10,5 @@
     "start": "wiki -p $PORT --database '{\"type\": \"./mongodb\"}'"
   },
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }

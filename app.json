@@ -1,0 +1,21 @@
+{
+  "name": "Smallest Federated Wiki",
+  "description": "A wiki that shares through federation, composes by refactoring and wraps data with visualization.",
+  "repository": "https://github.com/fedwiki/wiki-node",
+  "logo": "http://fed.wiki.org/favicon.png",
+  "website": "http://fed.wiki.org/",
+  "addons": [
+    "mongolab:sandbox"
+  ],
+  "keywords": [
+    "smallest federated wiki",
+    "wiki",
+    "federated"
+  ],
+ "env": {
+    "wiki_url": {
+      "description": "The domain you will use for this site (if you don't have any domain, use the same \"App Name\" you've chosen up there and add .herokuapp.com. For example: if you chosed \"bananas-wiki\" as your app name, this should be \"bananas-wiki.herokuapp.com\")",
+      "required": true
+    }
+  }
+}
